@@ -465,7 +465,7 @@ body {
 
 .contact1_form-container input {
 
-  background-color: var(--color-black);
+  background-color: var(--color-orange);
   margin: .5rem;
   padding: 10px;
   width: 300px;
@@ -501,6 +501,10 @@ textarea {
 textarea:focus,
 input:focus {
   color: var(--color-white);
+}
+
+input::placeholder {
+  color: white;
 }
 
 .button1 {
